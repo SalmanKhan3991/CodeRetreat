@@ -24,7 +24,7 @@ public class Grid {
                 if(cells[i][j].isAlive()) {
                     System.out.print("0");
                 } else {
-                    System.out.print(" ");
+                    System.out.print("*");
                 }
             }
             System.out.println();
