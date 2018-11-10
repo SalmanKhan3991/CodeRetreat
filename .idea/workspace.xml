@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="23d65892-855d-442a-8ffc-bb8518f5bbbf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Grid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Grid.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/GridTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GridTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Cell.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Cell.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Grid.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Grid.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MainClass.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -47,13 +43,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1142" />
+          <entry key="java" value="1258" />
           <entry key="xml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1142" />
+          <entry key="JAVA" value="1258" />
           <entry key="XML" value="6" />
         </counts>
       </usages-collector>
@@ -87,8 +83,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Grid.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+            <state relative-caret-position="281">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+              <folding>
+                <element signature="e#882#883#0" expanded="true" />
+                <element signature="e#938#939#0" expanded="true" />
+                <element signature="e#981#982#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -96,10 +97,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/GridTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+            <state relative-caret-position="144">
+              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#382#383#0" expanded="true" />
+                <element signature="e#440#441#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -108,11 +111,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Cell.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+            <state relative-caret-position="144">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="e#61#62#0" expanded="true" />
                 <element signature="e#92#93#0" expanded="true" />
+                <element signature="e#154#155#0" expanded="true" />
+                <element signature="e#197#198#0" expanded="true" />
+                <element signature="e#228#229#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -268,7 +274,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541866235546" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541866752534" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit" value="groovy.util.GroovyTestCase" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3" value="junit.framework.TestCase" />
@@ -300,7 +306,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GridTest.testGetCell">
+  <component name="RunManager" selected="JUnit.GridTest.testOutsideGetCell">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -318,6 +324,21 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="GridTest" />
       <option name="METHOD_NAME" value="testGetCell" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GridTest.testOutsideGetCell" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeRetreat3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GridTest" />
+      <option name="METHOD_NAME" value="testOutsideGetCell" />
       <option name="TEST_OBJECT" value="method" />
       <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -347,21 +368,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MainClassTest" />
       <option name="METHOD_NAME" value="testInvalidNumberOfNeighbours" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="wholeProject" />
-      </option>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainClassTest.testMain1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeRetreat3" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MainClassTest" />
-      <option name="METHOD_NAME" value="testMain1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -434,19 +440,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.MainTest" />
-      <item itemvalue="JUnit.MainClassTest.testMain1" />
       <item itemvalue="JUnit.MainClassTest.testInvalidNumberOfNeighbours" />
       <item itemvalue="JUnit.MainClassTest.testNumOfNeighbours" />
       <item itemvalue="JUnit.MainClassTest" />
       <item itemvalue="JUnit.GridTest.testGetCell" />
+      <item itemvalue="JUnit.GridTest.testOutsideGetCell" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GridTest.testOutsideGetCell" />
         <item itemvalue="JUnit.GridTest.testGetCell" />
         <item itemvalue="JUnit.MainClassTest.testInvalidNumberOfNeighbours" />
         <item itemvalue="JUnit.MainClassTest" />
         <item itemvalue="JUnit.MainClassTest.testNumOfNeighbours" />
-        <item itemvalue="JUnit.MainClassTest.testMain1" />
       </list>
     </recent_temporary>
   </component>
@@ -464,21 +470,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MainClassTest_testInvalidNumberOfNeighbours - 2018.11.10 at 15h 16m 26s.xml">
-      <configuration name="MainClassTest.testInvalidNumberOfNeighbours" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainClassTest - 2018.11.10 at 15h 18m 16s.xml">
-      <configuration name="MainClassTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainClassTest_testInvalidNumberOfNeighbours - 2018.11.10 at 15h 23m 58s.xml">
-      <configuration name="MainClassTest.testInvalidNumberOfNeighbours" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainClassTest_testInvalidNumberOfNeighbours - 2018.11.10 at 15h 24m 18s.xml">
-      <configuration name="MainClassTest.testInvalidNumberOfNeighbours" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainClassTest - 2018.11.10 at 15h 29m 30s.xml">
-      <configuration name="MainClassTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MainClassTest_testInvalidNumberOfNeighbours - 2018.11.10 at 15h 41m 08s.xml">
       <configuration name="MainClassTest.testInvalidNumberOfNeighbours" configurationId="JUnit" />
     </history-entry>
@@ -493,6 +484,21 @@
     </history-entry>
     <history-entry file="GridTest_testGetCell - 2018.11.10 at 16h 10m 03s.xml">
       <configuration name="GridTest.testGetCell" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GridTest_testGetCell - 2018.11.10 at 16h 10m 37s.xml">
+      <configuration name="GridTest.testGetCell" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GridTest_testGetCell - 2018.11.10 at 16h 11m 51s.xml">
+      <configuration name="GridTest.testGetCell" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GridTest_testGetCell - 2018.11.10 at 16h 17m 09s.xml">
+      <configuration name="GridTest.testGetCell" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GridTest_testOutsideGetCell - 2018.11.10 at 16h 17m 41s.xml">
+      <configuration name="GridTest.testOutsideGetCell" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GridTest_testOutsideGetCell - 2018.11.10 at 16h 18m 47s.xml">
+      <configuration name="GridTest.testOutsideGetCell" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -510,7 +516,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -530,6 +536,18 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/GridTest.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/MainClass.java">
@@ -560,21 +578,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Cell.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-          <folding>
-            <element signature="e#61#62#0" expanded="true" />
-            <element signature="e#92#93#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MainClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#61#62#0" expanded="true" />
+            <element signature="e#92#93#0" expanded="true" />
+            <element signature="e#154#155#0" expanded="true" />
+            <element signature="e#197#198#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -592,17 +613,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Grid.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+        <state relative-caret-position="281">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="e#882#883#0" expanded="true" />
+            <element signature="e#938#939#0" expanded="true" />
+            <element signature="e#981#982#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/GridTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        <state relative-caret-position="144">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
           </folding>
         </state>
       </provider>

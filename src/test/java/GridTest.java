@@ -16,6 +16,11 @@ public class GridTest extends TestCase {
         assertEquals(grid.getCell(2,1), true);
     }
 
+    @Test
+    public void testOutsideGetCell() {
+        assertFalse(grid.getCell(10, 10) == false);
+    }
+
     public void testSetCell() {
     }
 }
